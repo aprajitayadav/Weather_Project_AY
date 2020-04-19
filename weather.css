@@ -1,0 +1,287 @@
+/*body {
+  background-image: url('1weather.jpg');
+}*/
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 0px;
+  padding: 0px;
+}
+
+div.relative {
+  position: relative;
+  left: 0px;
+  color: white;
+  border: 0px solid #73AD21;
+}
+
+div.footrelative {
+  left: 0px;
+  color: white;
+  font-weight: bold;
+  color: white;
+  padding: 0px 0px;
+  text-align: left;
+  text-decoration: none;
+}
+
+section.navsection
+{
+  visibility: visible;
+}
+
+a.name:link, a:visited {
+  background-color: #282828;
+  font-weight: bold;
+  font-size: 30px;
+  font color: #ffffff;
+  padding: 0px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.menu:link, a:visited {
+  background-color: #282828;
+  font-weight: bold;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.bottom:link, a:visited {
+  font-weight: bold;
+  color: white;
+  padding: 0px 0px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+a:hover{
+  background-color: 
+}
+
+#about {
+  text-align: center;
+  padding: 40px;
+}
+#about img {
+  width: 200px;
+  border-radius: 100%;
+}
+#about h1 {
+  margin: 25px;
+}
+section {
+  padding-bottom: 40px;
+}
+.card .card-header {
+  cursor: pointer;
+}
+
+#about {
+  text-align: center;
+  padding: 40px;
+}
+#about img {
+  width: 200px;
+  border-radius: 100%;
+}
+#about h1 {
+  margin: 25px;
+}
+section {
+  padding-bottom: 40px;
+}
+.card .card-header {
+  cursor: pointer;
+}
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.content {
+  position: fixed;
+  bottom: 0;
+  color: #ffffff;
+  width: 100%;
+  padding: 20px;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
+  color: black;
+}
+
+.navbar-brand { color: #FFFFFF;}
+
+a:hover {
+  color: hotpink;
+}
+
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+  
+}
+h1.city {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  
+}
+h1.resume {
+    color: white;
+}
+p.presume {
+    color: white;
+}
+p.exp {
+    color: black;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+  
+}
+
+p.description {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  
+}
+p.temp {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  
+}
+p.time {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+  
+}
+
+span {
+  display: inline;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid blue;
+  font-size: 75%;
+  border-radius: 25px;
+  font-weight: bold;
+  color: navy   ;
+  background-color: aqua;
+}
+
+.collapsible {
+
+  color: black;
+  cursor: pointer;
+  padding: 0px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 10px;
+}
+
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+ }
+
+
+ body {
+  background-color: gray;
+  background-image: url("weather.jpg");
+  background-repeat: no-repeat;
+   background-size: 1400px 700px; 
+}
+.col-sm-1 {
+  border: 1px #ccc solid;
+  background-color: yellow;
+  text-align: center;
+}
+
+.col-sm-4 {
+  border: 1px #ccc solid;
+  background-color: blue;
+  text-align: center;
+  color: white;
+}
+
+/*.col-sm-6 {
+  border: 1px green solid;
+  background-color: blue;
+  text-align: center;
+  color: white;
+}
+*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
